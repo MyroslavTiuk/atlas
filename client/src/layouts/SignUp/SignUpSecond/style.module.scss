@@ -1,0 +1,127 @@
+@use "../../../constants/scss/colors.scss" as colors;
+
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  &_title {
+    font-family: Inter;
+    font-weight: 500;
+    margin-right: 9.5rem;
+  }
+  &_form {
+    background: colors.$blue_gradient;
+    max-width: 556px;
+    // max-height: 641px;
+    width: 556px;
+    // height: 641px;
+    border-radius: 14px;
+    display: flex;
+    &_content {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin: auto;
+      padding-top: 78px;
+      padding-bottom: 78px;
+      &_item {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+        position: relative;
+        & label {
+          font-size: 14px;
+          font-family: Inter;
+          font-weight: 300;
+        }
+        & input {
+          color: #d8dcde;
+          max-width: 362px;
+          width: 362px;
+          height: 44px;
+          background: #0f0521;
+          border-radius: 8px;
+          border: 0.5px solid #3a2a4c;
+          padding-top: 4px;
+          padding-left: 8px;
+          font-size: 14px;
+          outline: none;
+          &::placeholder {
+            font-size: 14px;
+            color: #d8dcde;
+            font-family: Inter;
+            font-weight: 400;
+          }
+        }
+        & p {
+          display: flex;
+          justify-content: end;
+          margin-left: 60%;
+          font-size: 14px;
+          font-family: Inter;
+          font-weight: 400;
+          cursor: pointer;
+        }
+        &_text {
+          max-width: 362px;
+          width: 362px;
+          display: flex;
+          justify-content: space-between;
+          & img {
+            cursor: pointer;
+          }
+        }
+      }
+      & button {
+        background: colors.$pink_gradient;
+        height: 44px;
+        border-radius: 8px;
+        color: white;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        border: none;
+        margin-top: 32px;
+        cursor: pointer;
+      }
+      & span {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Inter;
+      }
+      & a {
+        color: colors.$primary_pink;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      & h1 {
+        font-family: Poppins;
+        font-weight: 600;
+      }
+    }
+  }
+  &_back_arrow {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 100%;
+    right: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Inter;
+    cursor: pointer;
+    text-decoration: none;
+    & img {
+      position: relative;
+      top: 2px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  justify-content: center;
+  align-items: start;
+
+  & div {
+    font-size: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    position: relative;
+    bottom: 2px;
+  }
+
+  & img {
+    position: relative;
+    bottom: 4px;
+  }
+}

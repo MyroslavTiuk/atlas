@@ -1,0 +1,33 @@
+@use "../../../../constants/scss/colors.scss" as colors;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  &_notifications {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 3px;
+
+    &_text {
+      font-size: 10px;
+    }
+    &_number {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      font-size: 6px;
+
+      height: 16px;
+      width: 16px;
+
+      border-radius: 99999px;
+      background: colors.$light_pink;
+      color: black;
+    }
+  }
+}

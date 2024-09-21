@@ -1,0 +1,50 @@
+@use "/src/constants/scss/colors.scss" as colors;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background: linear-gradient(to bottom, #1b0845, #000202);
+  height: 200vh;
+  font-family: Inter;
+}
+
+.css-1mhcdve-MuiPieArc-root {
+  stroke: #ea7ed1 !important;
+  stroke-width: 0.2px !important;
+  stroke-linejoin: round !important;
+}
+
+// .MuiPieArc-root.MuiPieArc-series-auto-generated-id-0.css-1mhcdve-MuiPieArc-root {
+//   stroke: green !important;
+// }
+
+.MuiPieArc-root.MuiPieArc-series-auto-generated-id-0.css-1mhcdve-MuiPieArc-root[style="fill: yellow; opacity: 1;"] {
+  stroke: #f6c159 !important;
+}
+.MuiPieArc-root.MuiPieArc-series-auto-generated-id-0.css-1mhcdve-MuiPieArc-root[style="fill: #ea7ed1; opacity: 1;"] {
+  stroke: #ea7ed1 !important;
+}
+.MuiPieArc-root.MuiPieArc-series-auto-generated-id-0.css-1mhcdve-MuiPieArc-root[style="fill: green; opacity: 1;"] {
+  stroke: #0bc63f !important;
+}
+
+.MuiLinearProgress-bar.MuiLinearProgress-barColorPrimary.MuiLinearProgress-bar1Determinate.css-5xe99f-MuiLinearProgress-bar1 {
+  background: colors.$pink_gradient !important;
+  border-radius: 1000px !important;
+}
+.MuiLinearProgress-root.MuiLinearProgress-colorPrimary.MuiLinearProgress-determinate.css-eglki6-MuiLinearProgress-root {
+  border-radius: 1000px !important;
+}
+
+.MuiFormControl-root.MuiFormControl-fullWidth.css-q8hpuo-MuiFormControl-root {
+  height: 24px !important;
+}
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.MuiInputBase-hiddenLabel.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  height: 24px !important;
+}
+
+.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputHiddenLabel.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 24px !important;
+}
+.MuiPieArc-root.MuiPieArc-series-auto-generated-id-0.css-1b95g7z {
+  stroke: none !important;
+}

@@ -1,0 +1,28 @@
+.container {
+  &_hours {
+    display: flex;
+    justify-content: space-between;
+    & p {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      & div:nth-child(2) img {
+        rotate: (180deg);
+      }
+    }
+    position: relative;
+    bottom: 20px;
+  }
+
+  &_details {
+    display: flex;
+    justify-content: space-between;
+
+    & div {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    position: relative;
+    bottom: 28px;
+  }
+}

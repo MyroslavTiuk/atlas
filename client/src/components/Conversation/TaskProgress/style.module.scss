@@ -1,0 +1,26 @@
+@use "../../../constants/scss/colors.scss" as colors;
+
+.container {
+  height: 100%;
+  font-size: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &_name {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  &_task {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+
+    &_text {
+      & span:nth-child(1) {
+        color: colors.$gray_1;
+        font-weight: 300;
+      }
+    }
+  }
+}

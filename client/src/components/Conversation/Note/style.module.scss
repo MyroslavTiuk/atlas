@@ -1,0 +1,30 @@
+@use "../../../constants/scss/colors.scss" as colors;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+  bottom: 6px;
+
+  & div {
+    font-size: 10px;
+    font-weight: 300;
+    color: colors.$gray_1;
+  }
+
+  & img {
+    cursor: pointer;
+  }
+
+  &_firstRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &_secondRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

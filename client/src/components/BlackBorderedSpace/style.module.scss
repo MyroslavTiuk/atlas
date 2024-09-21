@@ -1,0 +1,17 @@
+@use "../../constants/scss/colors.scss" as colors;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.seeMore {
+  color: colors.$gray_1;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+}

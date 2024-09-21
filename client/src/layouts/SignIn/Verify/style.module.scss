@@ -1,0 +1,147 @@
+@use "../../../constants/scss/colors.scss" as colors;
+
+.container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+  &_title {
+    font-family: Inter;
+    font-weight: 500;
+    margin-top: 5rem;
+    margin-right: 40rem;
+  }
+  &_form {
+    background: colors.$blue_gradient;
+    padding: 150px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    // & button {
+    //   background: colors.$pink_gradient;
+    //   height: 44px;
+    //   border-radius: 8px;
+    //   color: white;
+    //   font-family: Inter;
+    //   font-size: 20px;
+    //   font-weight: 500;
+    //   border: none;
+    //   cursor: pointer;
+    // }
+    &_content {
+      display: flex;
+      flex-direction: column;
+      gap: 34px;
+      margin: auto;
+      &_items {
+        display: flex;
+        justify-content: space-between;
+        & img {
+          cursor: pointer;
+        }
+      }
+
+      button {
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 20px !important;
+
+        &:disabled {
+          opacity: 0.4;
+        }
+      }
+      // padding: 72px 97px;
+      &_item {
+        font-size: 20px;
+        font-family: Inter;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 4px;
+        & span {
+          color: colors.$primary_pink;
+          cursor: pointer;
+        }
+        & label {
+          font-size: 14px;
+          font-family: Inter;
+          font-weight: 300;
+        }
+        & input {
+          color: #d8dcde;
+          max-width: 362px;
+          width: 72px !important;
+          height: 44px !important;
+          background: #0f0521;
+          border-radius: 8px;
+          border: 0.5px solid #3a2a4c;
+          padding-top: 4px;
+          padding-left: 8px;
+          font-size: 14px;
+          outline: none;
+        }
+        & p {
+          display: flex;
+          justify-content: end;
+          margin-left: 60%;
+          font-size: 14px;
+          font-family: Inter;
+          font-weight: 400;
+          color: colors.$primary_pink;
+          cursor: pointer;
+        }
+      }
+
+      &_resend {
+        color: white;
+        font-size: 16px;
+        font-family: Inter;
+        font-weight: 400;
+        & span {
+          color: colors.$primary_pink;
+          cursor: pointer;
+        }
+      }
+
+      & footer {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Inter;
+      }
+      & span {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Inter;
+      }
+      & a {
+        color: colors.$primary_pink;
+        cursor: pointer;
+        text-decoration: none;
+      }
+    }
+  }
+  &_back_arrow {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    right: 40%;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Inter;
+    cursor: pointer;
+    text-decoration: none;
+    & img {
+      position: relative;
+      top: 2px;
+    }
+  }
+}

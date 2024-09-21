@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: relative;
+  bottom: 20px;
+  & h3 {
+    position: absolute;
+
+    bottom: -30px;
+    left: 44px;
+
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-family: Inter;
+    line-height: 20px;
+  }
+  & h3.enviromental {
+    position: absolute;
+
+    bottom: -30px;
+    left: 22px;
+
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-family: Inter;
+    line-height: 20px;
+  }
+  & h3.efficiency {
+    position: absolute;
+
+    bottom: -30px;
+    left: 34px;
+
+    font-size: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-family: Inter;
+    line-height: 20px;
+  }
+  & p {
+    position: absolute;
+    top: 34px;
+    right: 30px;
+
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Inter;
+  }
+}
+
+.top_line,
+.bottom_line {
+  position: absolute;
+  //   left: 50%;
+  // transform: translateX(-50%);
+  z-index: 1;
+}
+
+.top_line {
+  top: 25px;
+  right: -1px;
+}
+
+.bottom_line {
+  //   bottom: 38px;
+  //   bottom: 96px;
+  bottom: 26px;
+  right: -1px;
+}

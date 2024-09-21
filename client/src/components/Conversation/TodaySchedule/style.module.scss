@@ -1,0 +1,17 @@
+@use "../../../constants/scss/colors.scss" as colors;
+.container {
+  &_text {
+    text-align: start;
+
+    & p {
+      color: colors.$gray_1;
+      font-size: 8px;
+      font-family: Inter;
+      font-weight: 400;
+
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  &_number {
+    position: absolute;
+    left: 65px;
+    top: 64px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+}

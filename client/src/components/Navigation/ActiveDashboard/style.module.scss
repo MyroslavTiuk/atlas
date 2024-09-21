@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0px 10px 0px;
+
+  @media (max-width: 1600px) {
+    flex-direction: row;
+    align-items: end;
+    gap: 10px;
+  }
+
+  &_title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  &_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &_big {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      @media (max-width: 1600px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+      }
+    }
+  }
+}

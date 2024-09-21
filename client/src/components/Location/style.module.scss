@@ -1,0 +1,25 @@
+@use "../../constants/scss/colors.scss" as colors;
+
+.container {
+  text-align: start;
+
+  & p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Inter;
+    color: colors.$gray_1;
+    & div {
+      font-size: 12px;
+      font-weight: 600;
+      font-family: Inter;
+    }
+  }
+
+  &_live {
+    & span {
+      display: flex;
+      align-items: center;
+      margin-left: 8px;
+    }
+  }
+}

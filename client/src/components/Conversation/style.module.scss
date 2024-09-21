@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 8px;
+
+  gap: 4px;
+  &_top {
+    display: flex;
+    gap: 4px;
+    &_schedule {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    &_row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+
+      & div:nth-child(1) {
+        display: flex;
+        gap: 4px;
+      }
+
+      &_weather {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      &_user {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+    }
+  }
+}

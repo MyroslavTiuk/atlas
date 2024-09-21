@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+  bottom: 4px;
+
+  font-size: 10px;
+
+  &_notifications {
+    background: #fbe0ea;
+    color: black;
+
+    border-radius: 99999px;
+    width: 16px;
+    height: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 6px !important;
+  }
+}

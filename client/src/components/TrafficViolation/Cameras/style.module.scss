@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 4px;
+  overflow-x: scroll;
+}
+
+.container::-webkit-scrollbar {
+  height: 1px;
+}
+
+.container::-webkit-scrollbar-track {
+  background: none !important;
+}
+
+.container::-webkit-scrollbar-thumb {
+  background: none !important;
+}
+
+.container::-webkit-scrollbar-track {
+  color: black;
+}
